@@ -1,0 +1,71 @@
+[
+  {
+    "timestamp": "2026-03-10T19:45:00",
+    "user": "jdoe",
+    "resource": "customer_db",
+    "action": "file_download",
+    "indicators": [
+      "bulk_download"
+    ],
+    "hr_context": {
+      "days_since_review": 200,
+      "resignation_notice": true,
+      "recent_access_change": 3
+    },
+    "risk_score": 70,
+    "risk_band": "High",
+    "recommendation": "Escalate to IR team, disable user's access, consult HR and legal counsel, and place relevant data under legal hold."
+  },
+  {
+    "timestamp": "2026-03-11T21:00:00",
+    "user": "jdoe",
+    "resource": "finance_db",
+    "action": "db_query",
+    "indicators": [
+      "unauthorized_access",
+      "after_hours_query"
+    ],
+    "hr_context": {
+      "days_since_review": 200,
+      "resignation_notice": true,
+      "recent_access_change": 3
+    },
+    "risk_score": 100,
+    "risk_band": "High",
+    "recommendation": "Escalate to IR team, disable user's access, consult HR and legal counsel, and place relevant data under legal hold."
+  },
+  {
+    "timestamp": "2026-03-09T13:15:00",
+    "user": "asmith",
+    "resource": "finance_db",
+    "action": "file_download",
+    "indicators": [
+      "bulk_download"
+    ],
+    "hr_context": {
+      "days_since_review": 90,
+      "resignation_notice": false,
+      "recent_access_change": 0
+    },
+    "risk_score": 30,
+    "risk_band": "Low",
+    "recommendation": "Monitor and document. No immediate action required."
+  },
+  {
+    "timestamp": "2026-03-11T23:05:00",
+    "user": "bwilson",
+    "resource": "marketing_reports",
+    "action": "db_query",
+    "indicators": [
+      "after_hours_query"
+    ],
+    "hr_context": {
+      "days_since_review": 300,
+      "resignation_notice": false,
+      "recent_access_change": 1
+    },
+    "risk_score": 50,
+    "risk_band": "Medium",
+    "recommendation": "SOC analyst review, coordinate with HR to verify user's role and business need. Consider temporary monitoring and prepare for potential escalation."
+  }
+]
