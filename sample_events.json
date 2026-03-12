@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-03-10T19:45:00",
+    "user": "jdoe",
+    "action": "file_download",
+    "resource": "customer_db",
+    "bytes": 200000000
+  },
+  {
+    "timestamp": "2026-03-11T21:00:00",
+    "user": "jdoe",
+    "action": "db_query",
+    "resource": "finance_db",
+    "query": "SELECT * FROM accounts WHERE balance > 100000"
+  },
+  {
+    "timestamp": "2026-03-11T14:20:00",
+    "user": "asmith",
+    "action": "file_download",
+    "resource": "hr_portal",
+    "bytes": 50000000
+  },
+  {
+    "timestamp": "2026-03-12T10:00:00",
+    "user": "asmith",
+    "action": "db_query",
+    "resource": "finance_db",
+    "query": "SELECT salary FROM payroll WHERE employee_id='E12345'"
+  },
+  {
+    "timestamp": "2026-03-09T13:15:00",
+    "user": "asmith",
+    "action": "file_download",
+    "resource": "finance_db",
+    "bytes": 150000000
+  },
+  {
+    "timestamp": "2026-03-11T23:05:00",
+    "user": "bwilson",
+    "action": "db_query",
+    "resource": "marketing_reports",
+    "query": "SELECT campaign_data FROM reports"
+  }
+]
