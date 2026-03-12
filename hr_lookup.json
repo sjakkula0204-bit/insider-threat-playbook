@@ -1,0 +1,17 @@
+{
+  "jdoe": {
+    "days_since_review": 200,
+    "resignation_notice": true,
+    "recent_access_change": 3
+  },
+  "asmith": {
+    "days_since_review": 90,
+    "resignation_notice": false,
+    "recent_access_change": 0
+  },
+  "bwilson": {
+    "days_since_review": 300,
+    "resignation_notice": false,
+    "recent_access_change": 1
+  }
+}
